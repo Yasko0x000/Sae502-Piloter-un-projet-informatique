@@ -1,3 +1,4 @@
+/* Styles généraux */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -8,6 +9,7 @@ h1 {
     color: #333;
 }
 
+/* Styles du formulaire */
 form {
     margin: 20px;
     padding: 10px;
@@ -44,3 +46,90 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
+/* Styles des tables de résultats */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+/* Styles spécifiques aux éléments */
+.no-operation {
+    font-style: italic;
+    color: #888;
+}
+
+.medecin-info, .patient-info, .operation-info {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.medecin-info h2, .patient-info h2, .operation-info h2 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.medecin-info p, .patient-info p, .operation-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.medecin-table, .patient-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.medecin-table th, .patient-table th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.medecin-table th, .medecin-table td, .patient-table th, .patient-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.medecin-table tr:nth-child(even), .patient-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.medecin-table tr:hover, .patient-table tr:hover {
+    background-color: #ddd;
+}
